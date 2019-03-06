@@ -1,0 +1,15 @@
+A increddibly Crude and simple Conways life simulator for android.
+
+http://en.wikipedia.org/wiki/Conway's_Game_of_Life
+
+This was a weekend project i tried before i taught myself android so it is incredibly hacked together beacuse i figured stuff out as i went along and didn't understand alot of the core concepts of android at the time.
+
+
+
+
+
+
+
+
+Alex Girard
+GirardProgramming@gmail.com

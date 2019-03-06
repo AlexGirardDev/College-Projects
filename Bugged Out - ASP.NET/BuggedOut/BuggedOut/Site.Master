@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BuggedOut.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            color: #FFFFFF;
+            background-color: #B5B5BE;
+            border-top: 1px solid black;
+        }
+        .style2
+        {
+            color: #FFFFFF;
+            background-color: #616171;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header" style="border: 1px solid black; background-color: #616171">
+            <div class="title" style="background-color: #616171">
+                <h1 style="background-color: #616171; width: 98%;">
+                    <span class="style2">Bugged out</span>
+                    <asp:Label ID="lblSearchError" runat="server" 
+                        style="position: absolute; text-align: right; right: 39px; top: 13px; height: 35px; left: 466px;" 
+                        Font-Size="Small"></asp:Label>
+                </h1>
+            </div>
+            <div class="clear hideSkiplink">
+                
+                <div>
+                    <table align="center" class="style1" cellpadding="2px" 
+                        style="border-style: solid none none none; border-width: 1px; border-color: black">
+                        <tr>
+                            <td class="tdLinks" align="center">
+                                <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" 
+                                    ForeColor="White" NavigateUrl="~/home.aspx" Font-Size="Small">Home</asp:HyperLink>
+                            </td>
+                            <td class="tdLinks" align="center">
+                                <asp:HyperLink ID="HyperLink2" runat="server" Font-Bold="True" 
+                                    ForeColor="White" NavigateUrl="~/viewissues.aspx" Font-Size="Small">View Issues</asp:HyperLink>
+                            </td>
+                            <td class="tdLinks" align="center">
+                                <asp:HyperLink ID="HyperLink3" runat="server" Font-Bold="True" 
+                                    ForeColor="White" NavigateUrl="~/newissue.aspx" Font-Size="Small">Report Issue</asp:HyperLink>
+                            </td>
+                            <td class="tdLinks" align="center">
+                                <asp:HyperLink ID="HyperLink4" runat="server" Font-Bold="True" 
+                                    ForeColor="White" NavigateUrl="~/progressmap.aspx" Font-Size="Small">Progress Map</asp:HyperLink>
+                            </td>
+                            <td class="tdLinks" align="center">
+                                <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" 
+                                    ForeColor="White" NavigateUrl="~/advancedsearch.aspx" Font-Size="Small">Advanced Search</asp:HyperLink>
+                            </td>
+                            <td align="right">
+                                <asp:TextBox ID="txtSearch" runat="server" style="text-align: right"></asp:TextBox>
+                            </td>
+                            <td align="center">
+                                <asp:Button ID="cmdSearch" runat="server" Text="Search By ID" 
+                                    onclick="cmdSearch_Click" />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

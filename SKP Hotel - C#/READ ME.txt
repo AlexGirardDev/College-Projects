@@ -1,0 +1,8 @@
+A simple Hotel reservations app i made for my C# final project 
+
+It uses the entity model sql and Linq to allow you too write read and update hotel reservations.
+
+I recently updated it to utilized SQLite which is a selfcontainted SQL database so that way the user didnt have to have sql server installed on there PC to get the app to run.
+
+Alex Girard
+GirardProgramming@gmail.com

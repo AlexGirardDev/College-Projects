@@ -1,0 +1,24 @@
+
+
+Very basic Conways life simulator (http://en.wikipedia.org/wiki/Conway's_Game_of_Life)
+
+I used Paint to draw the squres on the screen which is probably the worst possible way too do it beacuse every single iteration it paints over the old square so it can be pretty slow sometimes but at the time paint was all i knew how to use too do what i wanted.
+
+How to use:
+
+Press Create first or else the program will crash
+
+Left click to make cell alive(Green)
+Right click for dead(Black)
+
+Randomize randomized the grid
+
+Start steps the program at a set rate
+Step steps the program 1 cycle
+
+
+
+
+
+Alex Girard
+GirardProgramming@gmail.com

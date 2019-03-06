@@ -1,0 +1,13 @@
+C:\Users\graphic\Dropbox\ToJam\YAGE\YAGE\YAGE\bin\Debug\YAGE.exe
+C:\Users\graphic\Dropbox\ToJam\YAGE\YAGE\YAGE\bin\Debug\YAGE.pdb
+C:\Users\graphic\Dropbox\ToJam\YAGE\YAGE\YAGE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\graphic\Dropbox\ToJam\YAGE\YAGE\YAGE\obj\x86\Debug\YAGE.Form1.resources
+C:\Users\graphic\Dropbox\ToJam\YAGE\YAGE\YAGE\obj\x86\Debug\YAGE.Properties.Resources.resources
+C:\Users\graphic\Dropbox\ToJam\YAGE\YAGE\YAGE\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\graphic\Dropbox\ToJam\YAGE\YAGE\YAGE\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\graphic\Dropbox\ToJam\YAGE\YAGE\YAGE\obj\x86\Debug\YAGE.exe
+C:\Users\graphic\Dropbox\ToJam\YAGE\YAGE\YAGE\obj\x86\Debug\YAGE.pdb
+C:\Dropbox\ToJam\YAGE\YAGE\YAGE\obj\x86\Debug\YAGE.exe
+C:\Dropbox\ToJam\YAGE\YAGE\YAGE\obj\x86\Debug\YAGE.pdb
+C:\Google Drive\Alex Girards Programming Portfolio\TOJam 8 - Unity and C#\YAGE\YAGE\YAGE\obj\x86\Debug\YAGE.exe
+C:\Google Drive\Alex Girards Programming Portfolio\TOJam 8 - Unity and C#\YAGE\YAGE\YAGE\obj\x86\Debug\YAGE.pdb

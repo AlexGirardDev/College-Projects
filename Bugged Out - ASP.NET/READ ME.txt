@@ -1,0 +1,7 @@
+A simple bug ticketing software me and my 2 partners made in our ASP.NET class
+
+It lets users write , update  and delete issues as well as view logs for any issues that have changed.
+
+
+Alex Girard
+GirardProgramming@gmail.com

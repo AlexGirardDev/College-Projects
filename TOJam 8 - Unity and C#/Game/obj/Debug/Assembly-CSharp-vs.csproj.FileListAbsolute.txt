@@ -1,0 +1,8 @@
+C:\Users\graphic\Dropbox\ToJam\Game\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\graphic\Dropbox\ToJam\Game\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\graphic\Dropbox\ToJam\Game\Temp\bin\Debug\UnityEditor.dll
+C:\Users\graphic\Dropbox\ToJam\Game\Temp\bin\Debug\UnityEngine.dll
+C:\Users\graphic\Dropbox\ToJam\Game\Temp\bin\Debug\nunit.framework.dll
+C:\Users\graphic\Dropbox\ToJam\Game\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\graphic\Dropbox\ToJam\Game\obj\Debug\Assembly-CSharp.dll
+C:\Users\graphic\Dropbox\ToJam\Game\obj\Debug\Assembly-CSharp.pdb

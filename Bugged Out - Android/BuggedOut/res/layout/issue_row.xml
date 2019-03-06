@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/issueIdRowTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="999"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/issueIdSpacer"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF" />
+
+    <LinearLayout
+        android:id="@+id/multilineDescriptionsthingasdfgaghadfgasdgasdhadfhasdfh"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:paddingBottom="7dip"
+        android:paddingLeft="15dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:id="@+id/issueTitleTextDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/issue_title" />
+
+        <TextView
+            android:id="@+id/projectNameRowTextDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/project_name"
+            android:textColor="#585858" />
+
+        <TextView
+            android:id="@+id/priorityRowTextDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/priority"
+            android:textColor="#585858" />
+
+        <TextView
+            android:id="@+id/issueCategoryTextDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/issue_category"
+            android:textColor="#585858" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/multilistthing"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:paddingBottom="7dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:id="@+id/issueTitleRowTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/projectNameRowTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="#6E6E6E" />
+
+        <TextView
+            android:id="@+id/priorityRowTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="#6E6E6E" />
+
+        <TextView
+            android:id="@+id/issueCategoryRowTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="#6E6E6E" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/buttonSpacer"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/issueInfoPictureButton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@null"
+        android:src="@drawable/back_list" />
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+This is a simple and formatless hotel reservation app i made useing SQL and Java servlettes for my java 2 class You can insert reservations, search by reservation , show all reservations ,edit reservations and delete reservations.
+
+
+
+Alex Girard
+GirardProgramming@gmail.com

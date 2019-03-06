@@ -1,0 +1,48 @@
+So first thing with this project is i havnt worked on it in over a year and i was still heavily in development and i have not put in any time at all to clean up / comment the code.
+
+
+if you HAVE NOT played the Video game StarCraft or Starcraft 2 Read this Section below:
+
+
+
+So Starcraft is what is called a RTS Game or Real Time Strategy game.The best analogy people usualy give to describe it is that its chess at 1000 mph
+
+The essence of the game is you start off with a small number of workers and a single base and you need to balance a fine line between your economy and your army and in the end the goal is to elminate your opponent who is trying to do the same thing on the other side of the map.
+
+
+Well as i stated earlier it is almost similar to a incredibly fast past version of chess but there arnt any turns and everything is happening all at once .In starcraft they have something called APM (Actions Per minute) and as the name would imply its how many actions a player is doing per minute.In an average game of starcraft it is not unheard of for some of the best players in the world to reach up to 500-600 actions per minute and each one of these actions are either planned percise move or descscions made in litterly tenths of a second.
+
+
+So i had a 3 years of my life were i was very competitve into this game and was always looking for the most effcient way to improve my self and i had got to a point were i felt that i knew what i wanted too do but my hands couldnt move fast and effcient enough to do it all so i wanted to develop a way to only work on this part of my game ,Much like a muscian would play the same part of a song over and over  if they were having problems playing it consistantly. So this program emulates an entire game of starcraft as far as useing the keyboard and mouse are conerned down to all the little nuances of the controls someone who plays the game alot is used too and you have to pay attention to and do all of the things you would have to in a normal game so it is an inrediblly effective way to practice while also having the freedom of this program not requiring a gaming computer to run(like starcraft 2 does)
+
+
+
+
+
+
+
+
+if you HAVE played Starcraft or Starcraft 2 read this section below
+
+
+
+
+So my idea behind this project is that for about 3 years i was serious into starcraft 2 and i felt i was at a point were i understood what i needed to do in game but my fingers and hands just werent capable of doing everything i needed too fast enough.i only had a limited amount of time to play the game a week with school / work / social life etc but there was alot of times were i was on breaks at school or at work or the gf's house and would have a computer but it wasnt good enough to play starcraft / i didn't have my mouse/keyboard
+
+so i thought about this idea were if i made a program that emulated the actual controls of starcraft i could just practice  my macro and work on getting that as clean and effcient as possible as well as increasing my actual hand speed.This idea is actualy used by many starcraft players already in a custom map called multitasking trainer were you have to micro a probe away from a zergling constatly while building units and keeping your money low and eventually having to kill a computer player with heavy defenses and it is an extremely effecient way to improve that part of your play beacuse you don't have to think about what your opponent is doing or what you should be building you can just work on mechanics and nothig else.
+
+so this program  almost functions the exact same as that except instead of microing a probe you would have to click circles that would apear on your screen for a short period of time before the disapeared ( if you look at a game called OSU almost exacly that idea but without the music) while having to be constatly bulding SCV's and making units and supply depots and whatnot
+
+So at this point my program has all of th core functions working i just have to clean up the interface and add the rest of the units/ buildings and add hotkeys.So right now you can build SCV's Barracks Command Centers marines and marauders.All of the buildings que up units exacly like it does in game.The timing on everything is accurate to the blizzard time(1 blizard minute is 0.725 real minutes since the game is played on faster speed) with an accuracy of 4-5ms .A very big thing i stressed when developing this program was that it had to feal exacly like you were playing a game of starcraft 2 as far as the controls were concerned down to what happens when you press esc or how units que up based on what units are previously qued / what you have selected.The reason i stressed all the little details so much was beacuse that if the progra didn't feel exaclty like a game of starcraft then the skills wouldnt translate and it would defeat the entire purpose of the program.
+
+
+
+
+
+
+
+
+For anyone wondering when i played starcraft 2 i played for 3.5 years(since the beta) and was mid - high masters for 3 of those years (top 1% of players in NA)
+
+Alex Girard
+GirardProgramming@gmail.com

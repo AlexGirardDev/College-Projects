@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bugged Out</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Bugged Out</string>
+    <string name="issue_id">Issue ID:</string>
+    <string name="project_name">Project Name: </string>
+    <string name="created_by">Created By:</string>
+    <string name="assigned_to">Assigned To:</string>
+    <string name="issue_category">Issue Category:</string>
+    <string name="issue_status">Issue Status:</string>
+    <string name="category">Category:</string>
+    <string name="priority">Issue Priority: </string>
+    <string name="create_date">Create Date:</string>
+    <string name="last_update">Last Update:</string>
+    <string name="issue_title">Issue Title: </string>
+    <string name="description">Description</string>
+    <string name="update_issue">Update</string>
+    <string name="delete_issue">Delete</string>
+    <string name="issue_log">Log</string>
+    <string name="report_issue">Report Issue</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="search_button">Search Issues</string>
+    <string name="issue_status_open">Open</string>
+    <string name="issue_status_acknowledged">Acknowledged</string>
+    <string name="issue_status_resolved">Resolved</string>
+    <string name="issue_status_closed">Closed</string>
+
+    <string-array name="project_name_search">
+        <item></item>
+        <item>Call Of Honor</item>
+        <item>World of PeaceCraft</item>
+        <item>Slightly Agitated Bovine</item>
+        <item>CarCraft 4</item>
+    </string-array>
+    <string-array name="category_search">
+        <item></item>
+        <item>Graphics</item>
+        <item>Multiplayer</item>
+        <item>Single Player</item>
+        <item>Audio</item>
+        <item>AI</item>
+        <item>Physics</item>
+    </string-array>
+    <string-array name="issue_status_search">
+        <item></item>
+        <item>Open</item>
+        <item>Acknowledged</item>
+        <item>Resolved</item>
+        <item>Closed</item>
+    </string-array>
+    <string-array name="priority_search">
+        <item></item>
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+        <item>Urgent</item>
+    </string-array>
+    <string-array name="project_name">
+        <item>Call Of Honor</item>
+        <item>World of PeaceCraft</item>
+        <item>Slightly Agitated Bovine</item>
+        <item>CarCraft 4</item>
+    </string-array>
+    <string-array name="category">
+        <item>Graphics</item>
+        <item>Multiplayer</item>
+        <item>Single Player</item>
+        <item>Audio</item>
+        <item>AI</item>
+        <item>Physics</item>
+    </string-array>
+    <string-array name="issue_status">
+        <item>Open</item>
+        <item>Acknowledged</item>
+        <item>Resolved</item>
+        <item>Closed</item>
+    </string-array>
+    <string-array name="priority">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+        <item>Urgent</item>
+    </string-array>
+
+</resources>

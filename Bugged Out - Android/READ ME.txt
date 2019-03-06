@@ -1,0 +1,37 @@
+This is a simple bug tracking software i made based off a ASP.NET project i
+did at school.
+
+Its features are:     Report issues with descriptions,issue type,priority,etc.
+
+	View all issues current issues colour coded by issue
+	priority(acknowleded,open,resolved,closed)
+
+	Filter issues based on one or many criteria in any of the fields
+
+	Edit preview issues and stores logs of changes to any issue.
+
+	Compatible with all sized devices as well as any device running android
+	2.2 or greater thanks to the utlization of a library called
+	ActionBarSherlock which gives compaitiblity support for older versions of
+	android with my action bars and the tabed layout.
+
+	DRM free!
+
+
+It stores all data on a local database so if the app is deleted the database
+will be lost
+
+The app isnt ment to be actualy used by anybody for actual software
+development but was just ment as  a way for me to understand android and gave
+me a project were i could focus more on actualy learning how to program
+android and not have to worry about coming up with an idea for a project aside
+from figuring out how to get my desktop app to fit nicely on too a phone sized
+screen.
+
+
+Google play link : 
+https://play.google.com/store/apps/details?id=ca.girardprogramming.buggedout
+
+
+Alex Girard
+GirardProgramming@gmail.com

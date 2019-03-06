@@ -1,0 +1,10 @@
+A simple tank game i made back in my java 2.all the project required was that we make a tank drive around on the screen and shoot bullets but me and my partner went further and add full screen support and screen buffering beacuse we felt we coudlnt get it too run smooth enough without it 
+
+We were forced to set the resolution at 800x600 beacuse of the project guide lines so we did that but just made the game full screen and scaled it but for some reason when i switched to windows 8 a month back and tried the app again just recently it doesnt actualy scale the app it shows a 800x600 window of the game and then if flashes black and white every screen swap creating a strobe like effect
+
+Here is a demo video of the game.the lagg when i turnthe tank is due to my keyboard repeat having a delay before it repeats that i havnt changed since i reformatted my computer.
+
+http://www.youtube.com/watch?v=GEHw1niNG0g
+
+Alex Girard
+GirardProgramming@gmail.com

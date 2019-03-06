@@ -1,0 +1,6 @@
+This is an assignment i had in linux 2 demonstrating me configuring a virtual network useing virtual machines and setting up a DHCP server with static and dynamic ip's as well as a DNS server/file sharing server/apache server as well as pining all of the other machines from inside each VM to ensure that it was all working correctly
+
+
+
+Alex Girard
+GirardProgramming@gmail.com

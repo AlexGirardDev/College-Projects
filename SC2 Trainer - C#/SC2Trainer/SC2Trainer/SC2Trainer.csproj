@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0626A31B-45A4-44E4-A1BE-73256D0B464B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SC2Trainer</RootNamespace>
+    <AssemblyName>SC2Trainer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllUnits.cs" />
+    <Compile Include="Hotkey.cs" />
+    <Compile Include="TrainerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerForm.Designer.cs">
+      <DependentUpon>TrainerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Unit.cs" />
+    <EmbeddedResource Include="TrainerForm.resx">
+      <DependentUpon>TrainerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="bin\Debug\barracks_Reactor.jpg" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\marine.png" />
+    <Content Include="bin\Debug\10.png" />
+    <None Include="bin\Debug\Abil_Background.jpg" />
+    <None Include="bin\Debug\buildUnitBackground.jpg" />
+    <Content Include="bin\Debug\gasIcon.jpg" />
+    <Content Include="bin\Debug\mineralIcon.jpg" />
+    <Content Include="bin\Debug\T_barracks_0_0.jpg" />
+    <Content Include="bin\Debug\T_barracks_0_1.jpg" />
+    <Content Include="bin\Debug\T_barracks_0_2.jpg" />
+    <Content Include="bin\Debug\T_barracks_0_3.jpg" />
+    <Content Include="bin\Debug\T_barracks_0_4.jpg" />
+    <Content Include="bin\Debug\T_barracks_0_5.jpg" />
+    <Content Include="bin\Debug\T_barracks_0_Building.jpg" />
+    <Content Include="bin\Debug\T_barracks_1_0.jpg" />
+    <Content Include="bin\Debug\T_barracks_1_1.jpg" />
+    <Content Include="bin\Debug\T_barracks_1_2.jpg" />
+    <Content Include="bin\Debug\T_barracks_1_3.jpg" />
+    <Content Include="bin\Debug\T_barracks_1_4.jpg" />
+    <Content Include="bin\Debug\T_barracks_1_Building.jpg" />
+    <Content Include="bin\Debug\T_barracks_Abil_0_marine_F.jpg" />
+    <Content Include="bin\Debug\T_cc.jpg" />
+    <None Include="bin\Debug\T_cc_Picture.JPG" />
+    <Content Include="bin\Debug\T_cc_0.jpg" />
+    <Content Include="bin\Debug\T_cc_0_0.jpg" />
+    <Content Include="bin\Debug\T_cc_0_1.jpg" />
+    <Content Include="bin\Debug\T_cc_0_2.jpg" />
+    <Content Include="bin\Debug\T_cc_0_3.jpg" />
+    <Content Include="bin\Debug\T_cc_0_4.jpg" />
+    <Content Include="bin\Debug\T_cc_0_5.jpg" />
+    <Content Include="bin\Debug\T_cc_0_Building.jpg" />
+    <Content Include="bin\Debug\T_cc_1.jpg" />
+    <Content Include="bin\Debug\T_cc_1_0.jpg" />
+    <Content Include="bin\Debug\T_cc_1_1.jpg" />
+    <Content Include="bin\Debug\T_cc_1_2.jpg" />
+    <Content Include="bin\Debug\T_cc_1_3.jpg" />
+    <Content Include="bin\Debug\T_cc_1_4.jpg" />
+    <Content Include="bin\Debug\T_cc_1_5.jpg" />
+    <Content Include="bin\Debug\T_cc_1_Building.jpg" />
+    <Content Include="bin\Debug\T_cc_Abil_0_scv.jpg" />
+    <Content Include="bin\Debug\T_cc_Abil_0_scv_F.jpg" />
+    <Content Include="bin\Debug\T_cc_Abil_0_scv_T.jpg" />
+    <Content Include="bin\Debug\T_cc_Building.jpg" />
+    <Content Include="bin\Debug\T_marauder_0.jpg" />
+    <Content Include="bin\Debug\T_marauder_1.jpg" />
+    <Content Include="bin\Debug\T_marine_0.jpg" />
+    <Content Include="bin\Debug\T_marine_1.jpg" />
+    <Content Include="bin\Debug\T_Reactor.gif" />
+    <Content Include="bin\Debug\T_reaper_0.jpg" />
+    <Content Include="bin\Debug\T_reaper_1.jpg" />
+    <Content Include="bin\Debug\T_refinery.jpg" />
+    <Content Include="bin\Debug\T_scv_0.jpg" />
+    <Content Include="bin\Debug\T_scv_1.jpg" />
+    <Content Include="bin\Debug\T_scv_Abil_0_bas_F.jpg" />
+    <Content Include="bin\Debug\T_scv_Abil_0_bas_T.jpg" />
+    <Content Include="bin\Debug\T_scv_Abil_0_bs_F.jpg" />
+    <Content Include="bin\Debug\T_scv_Abil_0_bs_T.jpg" />
+    <Content Include="bin\Debug\T_scv_Abil_1_cc_F.jpg" />
+    <Content Include="bin\Debug\T_scv_Abil_1_cc_T.jpg" />
+    <Content Include="bin\Debug\T_scv_Abil_1_sd_F.jpg" />
+    <Content Include="bin\Debug\T_scv_Abil_1_sd_T.jpg" />
+    <Content Include="bin\Debug\T_supplyIcon.jpg" />
+    <Content Include="bin\Debug\T_TechLab.gif" />
+    <Content Include="Properties\10.png" />
+    <Content Include="Properties\Egg.png" />
+    <Content Include="Properties\marine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

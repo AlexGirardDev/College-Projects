@@ -1,0 +1,11 @@
+http://girardconstruction.ca/index.html
+
+one of the first coding projects i did when i started learning to program
+
+I didn't write the javascript slideshow but had to hack apart one i found online to get it too work how i wanted and format how i wanted 
+
+the website is very bare beacuse all the text and pictures they gave me is all the info i had too work with so i had to try and make the website work with such little content.
+
+
+Alex Girard
+GirardProgramming@gmail.com

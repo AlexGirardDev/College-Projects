@@ -1,0 +1,19 @@
+So there is this event every year at george brown college called TOJAM.How it works is that you are given a simple theme for a game and given 3 days to make it.There is no prizes or winners or any competition beacuse having to create a full game in 3 days is enough pressure in it self
+
+My friends from school started a video game studio called Vinyl Game Studio(http://vinylgs.com/) and my good friend from class is there only programmer and this year they needed a second programmer for the event so he chose me.
+
+So there are 2 folders here 1 called  YAGE ( yet another game editor) Which was entirely made by me and is just a simple way for our game designer and artists to create maps for the game we created.
+
+
+the second folder is called game, Which well is the game.it is a grid style game played by up too 4 players were you push blocks around to try and trap your opponents in on all 4 sides.There are a couple little game mechanics as well like diffrent blocks, bacon blocks slide along the ground till they hit a wall and leave a trail of grease behind them or you can pick up randomly spawning gum that will let you shoot at an enemy and stun them for a couple seconds.
+
+most of the code for this project was done by there coder since we only have 3 days and i have had no real programming exprience with unity aside from my c# expreince that i used to help with the scripting.I did however work with there programmer the entire weekened helping him decide how he wanted to actualy acoomplish what he wanted even, while he was the one who wrote most of the actual code.
+
+
+
+If you wanted to play this game you need to have 2 usb controllers(xbox ones work the best) and have unity installed .If you have 2 controllers plugged in and the game still doesnt load you will have to remap the controls on the unity start screen for the game .THe game won't spawn anything unless it finds 2 valid players.
+
+
+
+Alex Girard
+GirardProgramming@gmail.com

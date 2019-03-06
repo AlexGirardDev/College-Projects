@@ -1,0 +1,11 @@
+C:\Users\Alex\Dropbox\My Projects\Git Hub\C#\SKPHotel 2.0\SKPHotel 2.0\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alex\Dropbox\My Projects\Git Hub\C#\SKPHotel 2.0\SKPHotel 2.0\obj\x86\Debug\SKPHotel_2._0.Properties.Resources.resources
+C:\Users\Alex\Dropbox\My Projects\Git Hub\C#\SKPHotel 2.0\SKPHotel 2.0\obj\x86\Debug\SKPHotel_2._0.Form1.resources
+C:\Users\Alex\Dropbox\My Projects\Git Hub\C#\SKPHotel 2.0\SKPHotel 2.0\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Alex\Dropbox\My Projects\Git Hub\C#\SKPHotel 2.0\SKPHotel 2.0\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Alex\Dropbox\My Projects\Git Hub\C#\SKPHotel 2.0\SKPHotel 2.0\bin\Debug\SKPHotel 2.0.exe
+C:\Users\Alex\Dropbox\My Projects\Git Hub\C#\SKPHotel 2.0\SKPHotel 2.0\bin\Debug\SKPHotel 2.0.pdb
+C:\Users\Alex\Dropbox\My Projects\Git Hub\C#\SKPHotel 2.0\SKPHotel 2.0\obj\x86\Debug\SKPHotel 2.0.exe
+C:\Users\Alex\Dropbox\My Projects\Git Hub\C#\SKPHotel 2.0\SKPHotel 2.0\obj\x86\Debug\SKPHotel 2.0.pdb
+C:\Users\Alex\Dropbox\My Projects\Git Hub\C#\SKPHotel 2.0\SKPHotel 2.0\bin\Debug\SKPHotel 2.0.exe.config
+C:\Users\Alex\Dropbox\My Projects\Git Hub\C#\SKPHotel 2.0\SKPHotel 2.0\bin\Debug\SKPdb.s3db
